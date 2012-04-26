@@ -230,8 +230,8 @@ const GLubyte Indices[] = {
     [self.effect prepareToDraw];    
     
  
-    glBindBuffer(GL_ARRAY_BUFFER, _vertexBuffer);
-    glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, _indexBuffer);
+ //   glBindBuffer(GL_ARRAY_BUFFER, _vertexBuffer);
+ //   glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, _indexBuffer);
  
 
  /*
@@ -244,7 +244,7 @@ const GLubyte Indices[] = {
     
 */    
     
-    glDrawElements(GL_TRIANGLES, sizeof(Indices)/sizeof(Indices[0]), GL_UNSIGNED_BYTE, 0);    
+  //  glDrawElements(GL_TRIANGLES, sizeof(Indices)/sizeof(Indices[0]), GL_UNSIGNED_BYTE, 0);    
     
     
     
